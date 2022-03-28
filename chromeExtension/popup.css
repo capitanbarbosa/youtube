@@ -1,0 +1,25 @@
+body {
+  min-width: 700px;
+}
+
+.video-link > a:visited,
+.video-link > a {
+  color: 333;
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #eee;
+  font-size: 12px;
+  box-shadow: 1px 1px 5px #ccc;
+  transition: 100ms;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 2px 2px 5px #ccc;
+}
